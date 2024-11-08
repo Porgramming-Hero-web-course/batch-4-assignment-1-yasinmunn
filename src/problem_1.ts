@@ -1,5 +1,8 @@
-function sumArray(numbers: number[]): number {
-    return numbers.reduce((acc, curr) => acc + curr, 0);
+
+
+function sumArray(nums: number[]): number{
+    return nums.reduce((acc, num) => acc + num, 0)
 }
 
-console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15
+console.log(sumArray([83,532,53,])); 
+
